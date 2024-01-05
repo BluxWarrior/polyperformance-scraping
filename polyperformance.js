@@ -134,7 +134,7 @@ async function polyperformance(pd) {
 
 async function run() {
 
-    const products = JSON.parse(fs.readFileSync('products.json', 'utf8'));
+    const products = JSON.parse(fs.readFileSync('missed_data.json', 'utf8'));
     
     let numberoffiles = fs.readdirSync('./data').length;
     console.log(numberoffiles);
@@ -156,7 +156,17 @@ async function run() {
         await sleep(1000);
 
         let product = await polyperformance(pd); // Wait for each call to finish before proceeding
-        
+
+
+        let count = 0;
+
+        while(product['options'].length <= 1 && count < 5) {
+            console.log("option error", pd['url']);
+            product = await polyperformance(pd);
+
+            count ++;
+        }
+
         data.push(product);
         // console.log(data);
         const jsonContent = JSON.stringify(data, null, 2);
