@@ -7,7 +7,7 @@ filenames = os.listdir("./assets/data")
 
 def get_new_data(data):
     producturls = [x['url'] for x in data]
-
+    skus = []
 
     new_data = []
     for dt in data:
@@ -45,7 +45,26 @@ def get_new_data(data):
             })
     
     return new_data
-        
+
+def remove_duplicated_data(data):
+    skus = []
+    new_data = []
+
+    for dt in data:
+        new_options = []
+        for op in dt['options']:
+            if op['skuNumber'] not in skus:
+                new_options.append(op)
+                skus.append(op['skuNumber'])
+        if (len(new_options) > 0):
+            new_data.append({
+                'options': new_options,
+                'brand': dt['brand'],
+                'name': dt['name'],
+                'url': dt['url'],
+                'description': dt['description']
+            })
+
 def refactor(data):
     refactored_data = []
     count = 0
@@ -74,7 +93,7 @@ def refactor(data):
                 count += 1
             if num_oldprice == 0 or num_oldprice < num_finalprice:
                 oldprice = finalprice
-            optionname = option["optionname"]
+            optionname = option["skuNumber"]
 
 
             for i, img in enumerate(option["images"]):
@@ -129,6 +148,10 @@ def refactor(data):
                     temp_pd['Option1 Name'] = ""
                     temp_pd['Option1 Value'] = ""
 
+                if len(dt["options"]) == 1:
+                    temp_pd['Option1 Name'] = ""
+                    temp_pd['Option1 Value'] = ""
+
 
                 if oid == 0 and i == 0:
                     refactored_data.append(temp_pd)
@@ -178,7 +201,7 @@ def get_csv():
             data += json.load(f)
 
     new_data = get_new_data(data)
-
+    removed_data = remove_duplicated_data(data)
     refactored_data = refactor(new_data)
     convert(refactored_data, './assets/output.csv')
 

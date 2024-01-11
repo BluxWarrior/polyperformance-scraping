@@ -10,8 +10,13 @@ async function getbyoption(page, optionname) {
     const skuDiv = document.querySelector('div[itemprop="sku"]');
 
     const priceDiv = document.querySelector('span[itemprop="offers"]');
-    const finalpriceDiv = priceDiv.querySelector('span[data-price-type="finalPrice"]');
-    const oldpriceDiv = priceDiv.querySelector('span[data-price-type="oldPrice"]');
+
+    let finalpriceDiv = undefined;
+    let oldpriceDiv = undefined;
+    if (priceDiv) {
+      finalpriceDiv = priceDiv.querySelector('span[data-price-type="finalPrice"]');
+      oldpriceDiv = priceDiv.querySelector('span[data-price-type="oldPrice"]');
+    }
 
     let skuNumber = skuDiv ? skuDiv.textContent : '';
     let finalprice = finalpriceDiv ? finalpriceDiv.textContent.replace('$', '') : '';
@@ -183,7 +188,7 @@ async function get_product_deatils() {
       if (numberoffiles === 0) numberoffiles++;
 
 
-      for (const brand of metadata.slice(numberoffiles - 1)) {
+      for (const brand of metadata.slice(35)) {
         const brandname = brand["brand name"];
 
         // load data
