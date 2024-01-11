@@ -1,0 +1,438 @@
+[
+  {
+    "name": "APEX",
+    "url": "https://www.polyperformance.com/brand/apex"
+  },
+  {
+    "name": "ARB",
+    "url": "https://www.polyperformance.com/brand/arb"
+  },
+  {
+    "name": "Adams Driveshaft",
+    "url": "https://www.polyperformance.com/brand/adams-driveshaft"
+  },
+  {
+    "name": "Advance Adapters",
+    "url": "https://www.polyperformance.com/brand/advance-adapters"
+  },
+  {
+    "name": "All German Motorsports",
+    "url": "https://www.polyperformance.com/brand/all-german-motorsports"
+  },
+  {
+    "name": "All-Pro Off-Road",
+    "url": "https://www.polyperformance.com/brand/all-pro-off-road"
+  },
+  {
+    "name": "Artec Industries",
+    "url": "https://www.polyperformance.com/brand/artec-industries"
+  },
+  {
+    "name": "Autofab",
+    "url": "https://www.polyperformance.com/brand/autofab"
+  },
+  {
+    "name": "BD Diesel",
+    "url": "https://www.polyperformance.com/brand/bd-diesel"
+  },
+  {
+    "name": "Baja Designs",
+    "url": "https://www.polyperformance.com/brand/baja-designs"
+  },
+  {
+    "name": "Bend-Tech",
+    "url": "https://www.polyperformance.com/brand/bend-tech"
+  },
+  {
+    "name": "Borgeson",
+    "url": "https://www.polyperformance.com/brand/borgeson"
+  },
+  {
+    "name": "Bun Trail Welder",
+    "url": "https://www.polyperformance.com/brand/bun-trail-welder"
+  },
+  {
+    "name": "CTM Racing Products",
+    "url": "https://www.polyperformance.com/brand/ctm-racing-products"
+  },
+  {
+    "name": "Camburg Engineering",
+    "url": "https://www.polyperformance.com/brand/camburg-engineering"
+  },
+  {
+    "name": "Carli Suspension",
+    "url": "https://www.polyperformance.com/brand/carli-suspension"
+  },
+  {
+    "name": "Clayton Off Road",
+    "url": "https://www.polyperformance.com/brand/clayton-off-road"
+  },
+  {
+    "name": "Cognito Motorsports",
+    "url": "https://www.polyperformance.com/brand/cognito-motorsports"
+  },
+  {
+    "name": "Combat Off Road",
+    "url": "https://www.polyperformance.com/brand/combat-off-road"
+  },
+  {
+    "name": "Corbeau",
+    "url": "https://www.polyperformance.com/brand/corbeau"
+  },
+  {
+    "name": "Crown Performance",
+    "url": "https://www.polyperformance.com/brand/crown-performance"
+  },
+  {
+    "name": "Currie Enterprises",
+    "url": "https://www.polyperformance.com/brand/currie-enterprises"
+  },
+  {
+    "name": "Dana Spicer",
+    "url": "https://www.polyperformance.com/brand/dana-spicer"
+  },
+  {
+    "name": "Daystar",
+    "url": "https://www.polyperformance.com/brand/daystar"
+  },
+  {
+    "name": "Deaver Suspension",
+    "url": "https://www.polyperformance.com/brand/deaver-suspension"
+  },
+  {
+    "name": "Derale",
+    "url": "https://www.polyperformance.com/brand/derale"
+  },
+  {
+    "name": "DuroBumps",
+    "url": "https://www.polyperformance.com/brand/durobumps"
+  },
+  {
+    "name": "Dynatrac",
+    "url": "https://www.polyperformance.com/brand/dynatrac"
+  },
+  {
+    "name": "D Dzus",
+    "url": "https://www.polyperformance.com/brand/dzus"
+  },
+  {
+    "name": "Eibach Springs",
+    "url": "https://www.polyperformance.com/brand/eibach-springs"
+  },
+  {
+    "name": "Evo Manufacturing",
+    "url": "https://www.polyperformance.com/brand/evo-manufacturing"
+  },
+  {
+    "name": "F911",
+    "url": "https://www.polyperformance.com/brand/f911"
+  },
+  {
+    "name": "FK Rod Ends",
+    "url": "https://www.polyperformance.com/brand/fk-rod-ends"
+  },
+  {
+    "name": "Factor 55",
+    "url": "https://www.polyperformance.com/brand/factor-55"
+  },
+  {
+    "name": "Falcon Shocks",
+    "url": "https://www.polyperformance.com/brand/falcon-shocks"
+  },
+  {
+    "name": "Fox",
+    "url": "https://www.polyperformance.com/brand/fox"
+  },
+  {
+    "name": "Fragola",
+    "url": "https://www.polyperformance.com/brand/fragola"
+  },
+  {
+    "name": "Fuel Safe",
+    "url": "https://www.polyperformance.com/brand/fuel-safe"
+  },
+  {
+    "name": "Genesis Offroad",
+    "url": "https://www.polyperformance.com/brand/genesis-offroad"
+  },
+  {
+    "name": "Goat Built",
+    "url": "https://www.polyperformance.com/brand/goat-built"
+  },
+  {
+    "name": "H3R Performance",
+    "url": "https://www.polyperformance.com/brand/h3r-performance"
+  },
+  {
+    "name": "H HealTech",
+    "url": "https://www.polyperformance.com/brand/healtech"
+  },
+  {
+    "name": "Hi-Lift",
+    "url": "https://www.polyperformance.com/brand/hi-lift"
+  },
+  {
+    "name": "ICON Vehicle Dynamics",
+    "url": "https://www.polyperformance.com/brand/icon-vehicle-dynamics"
+  },
+  {
+    "name": "JE Reel Drive Shaft",
+    "url": "https://www.polyperformance.com/brand/je-reel-drive-shaft"
+  },
+  {
+    "name": "JKS MFG",
+    "url": "https://www.polyperformance.com/brand/jks-mfg"
+  },
+  {
+    "name": "Jaz Products",
+    "url": "https://www.polyperformance.com/brand/jaz-products"
+  },
+  {
+    "name": "K-Four Switches",
+    "url": "https://www.polyperformance.com/brand/k-four-switches"
+  },
+  {
+    "name": "King Racing Shocks",
+    "url": "https://www.polyperformance.com/brand/king-racing-shocks"
+  },
+  {
+    "name": "Kryptonite Products",
+    "url": "https://www.polyperformance.com/brand/kryptonite-products"
+  },
+  {
+    "name": "LOGIQ",
+    "url": "https://www.polyperformance.com/brand/logiq"
+  },
+  {
+    "name": "Light Racing",
+    "url": "https://www.polyperformance.com/brand/light-racing"
+  },
+  {
+    "name": "Longacre",
+    "url": "https://www.polyperformance.com/brand/longacre"
+  },
+  {
+    "name": "Low Range Off-Road",
+    "url": "https://www.polyperformance.com/brand/low-range-off-road"
+  },
+  {
+    "name": "LubeLocker",
+    "url": "https://www.polyperformance.com/brand/lubelocker"
+  },
+  {
+    "name": "MCE Fenders",
+    "url": "https://www.polyperformance.com/brand/mce-fenders"
+  },
+  {
+    "name": "Mechman",
+    "url": "https://www.polyperformance.com/brand/mechman"
+  },
+  {
+    "name": "Method Race Wheels",
+    "url": "https://www.polyperformance.com/brand/method-race-wheels"
+  },
+  {
+    "name": "Mob Armor",
+    "url": "https://www.polyperformance.com/brand/mob-armor"
+  },
+  {
+    "name": "Nitro Gear & Axle",
+    "url": "https://www.polyperformance.com/brand/nitro-gear-axle"
+  },
+  {
+    "name": "ORI Struts",
+    "url": "https://www.polyperformance.com/brand/ori-struts"
+  },
+  {
+    "name": "Off Road Only",
+    "url": "https://www.polyperformance.com/brand/off-road-only"
+  },
+  {
+    "name": "Oil Sponge",
+    "url": "https://www.polyperformance.com/brand/oil-sponge"
+  },
+  {
+    "name": "Old Man Emu",
+    "url": "https://www.polyperformance.com/brand/old-man-emu"
+  },
+  {
+    "name": "O Other Manufacturers",
+    "url": "https://www.polyperformance.com/brand/other-manufacturers"
+  },
+  {
+    "name": "Overland Vehicle Systems",
+    "url": "https://www.polyperformance.com/brand/overland-vehicle-systems"
+  },
+  {
+    "name": "PAC Racing Springs",
+    "url": "https://www.polyperformance.com/brand/pac-racing-springs"
+  },
+  {
+    "name": "PRP Seats",
+    "url": "https://www.polyperformance.com/brand/prp-seats"
+  },
+  {
+    "name": "PSC Motorsports",
+    "url": "https://www.polyperformance.com/brand/psc-motorsports"
+  },
+  {
+    "name": "P Package Deals",
+    "url": "https://www.polyperformance.com/brand/package-deals"
+  },
+  {
+    "name": "Poly Performance",
+    "url": "https://www.polyperformance.com/brand/poly-performance"
+  },
+  {
+    "name": "Power Tank",
+    "url": "https://www.polyperformance.com/brand/power-tank"
+  },
+  {
+    "name": "RCV Performance",
+    "url": "https://www.polyperformance.com/brand/rcv-performance"
+  },
+  {
+    "name": "Raceline Wheels",
+    "url": "https://www.polyperformance.com/brand/raceline-wheels"
+  },
+  {
+    "name": "Radflo",
+    "url": "https://www.polyperformance.com/brand/radflo"
+  },
+  {
+    "name": "ReadyLIFT",
+    "url": "https://www.polyperformance.com/brand/readylift"
+  },
+  {
+    "name": "Reid Racing",
+    "url": "https://www.polyperformance.com/brand/reid-racing"
+  },
+  {
+    "name": "Revolution Gear & Axle",
+    "url": "https://www.polyperformance.com/brand/revolution-gear-axle"
+  },
+  {
+    "name": "RockJock",
+    "url": "https://www.polyperformance.com/brand/rockjock"
+  },
+  {
+    "name": "Rough Country",
+    "url": "https://www.polyperformance.com/brand/rough-country"
+  },
+  {
+    "name": "Russell Performance",
+    "url": "https://www.polyperformance.com/brand/russell-performance"
+  },
+  {
+    "name": "S&B Filters",
+    "url": "https://www.polyperformance.com/brand/s-b-filters"
+  },
+  {
+    "name": "SDi",
+    "url": "https://www.polyperformance.com/brand/sdi"
+  },
+  {
+    "name": "SPC Performance",
+    "url": "https://www.polyperformance.com/brand/spc-performance"
+  },
+  {
+    "name": "Solid Axle Industries",
+    "url": "https://www.polyperformance.com/brand/solid-axle-industries"
+  },
+  {
+    "name": "Spidertrax",
+    "url": "https://www.polyperformance.com/brand/spidertrax"
+  },
+  {
+    "name": "Steer Smarts",
+    "url": "https://www.polyperformance.com/brand/steer-smarts"
+  },
+  {
+    "name": "Summit Machine",
+    "url": "https://www.polyperformance.com/brand/summit-machine"
+  },
+  {
+    "name": "Super Quick Fist",
+    "url": "https://www.polyperformance.com/brand/super-quick-fist"
+  },
+  {
+    "name": "SuspensionMaxx",
+    "url": "https://www.polyperformance.com/brand/suspensionmaxx"
+  },
+  {
+    "name": "Sway-A-Way",
+    "url": "https://www.polyperformance.com/brand/sway-a-way"
+  },
+  {
+    "name": "Switch-Pros",
+    "url": "https://www.polyperformance.com/brand/switch-pros"
+  },
+  {
+    "name": "Synergy Manufacturing",
+    "url": "https://www.polyperformance.com/brand/synergy-manufacturing"
+  },
+  {
+    "name": "TeraFlex",
+    "url": "https://www.polyperformance.com/brand/teraflex"
+  },
+  {
+    "name": "Total Chaos",
+    "url": "https://www.polyperformance.com/brand/total-chaos"
+  },
+  {
+    "name": "Trail-Gear",
+    "url": "https://www.polyperformance.com/brand/trail-gear"
+  },
+  {
+    "name": "Trailhead",
+    "url": "https://www.polyperformance.com/brand/trailhead"
+  },
+  {
+    "name": "Trasharoo",
+    "url": "https://www.polyperformance.com/brand/trasharoo"
+  },
+  {
+    "name": "UM3 Systems",
+    "url": "https://www.polyperformance.com/brand/um3-systems"
+  },
+  {
+    "name": "VIAIR",
+    "url": "https://www.polyperformance.com/brand/viair"
+  },
+  {
+    "name": "Voodoo Offroad",
+    "url": "https://www.polyperformance.com/brand/voodoo-offroad"
+  },
+  {
+    "name": "WARN",
+    "url": "https://www.polyperformance.com/brand/warn"
+  },
+  {
+    "name": "WFO Concepts",
+    "url": "https://www.polyperformance.com/brand/wfo-concepts"
+  },
+  {
+    "name": "Wheeler's Off Road",
+    "url": "https://www.polyperformance.com/brand/wheeler-s-off-road"
+  },
+  {
+    "name": "Whiteline",
+    "url": "https://www.polyperformance.com/brand/whiteline"
+  },
+  {
+    "name": "Wilwood",
+    "url": "https://www.polyperformance.com/brand/wilwood"
+  },
+  {
+    "name": "Winters Shifters",
+    "url": "https://www.polyperformance.com/brand/winters-shifters"
+  },
+  {
+    "name": "Z Zoleo",
+    "url": "https://www.polyperformance.com/brand/zoleo"
+  },
+  {
+    "name": "Zone Offroad",
+    "url": "https://www.polyperformance.com/brand/zone-offroad"
+  }
+]

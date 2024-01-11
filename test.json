@@ -1,9 +1,76 @@
 {
-  "skuNumber": "APX-X02-03-002",
-  "finalprice": "6.00",
-  "oldprice": "",
-  "images": [
-    "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-03-002-1.jpg",
-    "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-03-002-2.jpg"
-  ]
+  "options": [
+    {
+      "skuNumber": "APX-RPVRDVS_PARENT_ITEM",
+      "finalprice": "35.00",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-3.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-4.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-5.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-6.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-7.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-8.jpg"
+      ],
+      "optionname": "original"
+    },
+    {
+      "skuNumber": "APX-X02-02-001",
+      "finalprice": "120.00",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-3.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-4.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-5.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-6.jpg"
+      ],
+      "optionname": "APX-X02-02-001 +$85.00"
+    },
+    {
+      "skuNumber": "APX-X02-02-002",
+      "finalprice": "35.00",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-3.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-4.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-5.jpg"
+      ],
+      "optionname": "APX-X02-02-002"
+    },
+    {
+      "skuNumber": "APX-X02-02-003",
+      "finalprice": "140.00",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-3.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-4.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-5.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-6.jpg"
+      ],
+      "optionname": "APX-X02-02-003 +$105.00"
+    },
+    {
+      "skuNumber": "APX-X02-02-004",
+      "finalprice": "40.00",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-3.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-4.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-5.jpg"
+      ],
+      "optionname": "APX-X02-02-004 +$5.00"
+    }
+  ],
+  "description": "<div class=\"value\"><p>This innovative, patent-pending fast deflation tire valve allows you to quickly dump street air pressure to your preferred off-road pressure.</p>\n<p><b>Here’s how it works:</b><br>\nUnscrew the valve stem cover and place your preferred pressure gauge onto the valve.<br>\nNow simply slide gate cover out and watch your air gauge real-time as the pressure drops.<br>\nSlide the gate cover closed and replace the cap...you're done.<br>\nThe toggle action allows you to precisely throttle the air to hit your exact desired pressure.<br>\n</p>\n<p>It’s fast...very fast. You can expect tire deflation from 35 PSI TO 10 PSI IN LESS THAN 15 SECONDS. [Based on a 35” tire]</p>\n<b>Features:</b>\n<ul>\n<li>Toggle style vent</li>\n<li>1,000 hr salt spray</li>\n<li>Viton seals are impervious to most any chemical and are UV/ozone resistant</li>\n<li>TPMS mount [works with VS-650/950 style TPMS, see TPMS info]</li>\n<li>Fits most any wheel by replacing the valve stem [see clearance info /send us a message to be sure]</li>\n<li>High grade aircraft 7075 aluminum is as strong as steel</li>\n<li>Valve cap and lanyard included</li>\n<li>No drilling needed!</li>\n</ul>\n<p>The standard length is appropriate for most wheels. This RPV is for valve stem recesses less than 0.6\"\" in depth. If you have wheels with deep valve stem recesses that are more than 0.600\"\" (e.g. beadlocks), RPV XL LENGTH are required.</p>\n<p><b><font color=\"red\">Note:</font></b> NEITHER SIZE ARE COMPATABILE WITH AEV WHEELS</p>\n<table style=\"width: 500px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"prod_details\">\n<tbody><tr>\n<th>Part #</th>\n<th>Qty of Valves</th>\n<th>Valve Length</th>\n</tr>\n<tr>\n<td>APX-X02-02-001</td>\n<td>4</td>\n<td>Standard</td>\n</tr>\n<tr>\n<td>APX-X02-02-002</td>\n<td>1</td>\n<td>Standard</td>\n</tr>\n<tr>\n<td>APX-X02-02-003</td>\n<td>4</td>\n<td>XL (Recess deeper than 0.600\")</td>\n</tr>\n<tr>\n<td>APX-X02-02-004</td>\n<td>1</td>\n<td>XL (Recess deeper than 0.600\")</td>\n</tr>\n</tbody></table>\n<p><a href=\"https://cdn.shopify.com/s/files/1/0265/5790/6991/files/Valve_Clearance_REV3.pdf?v=1599091334\" target=\"_blank\">Installation Instructions</a></p>\n<p><a href=\"https://www.apexdesignsusa.com/pages/3-0-apex-rapid-precision-valve-tpms-fitment\" target=\"_blank\">Fitment Info</a></p>\n</div><p class=\"firebear_custom_block1\"></p><p class=\"firebear_custom_block2\"></p><p class=\"firebear_custom_block3\"></p><p class=\"firebear_custom_block4\"></p>",
+  "parent_url": "https://www.polyperformance.com/apex-designs-rpv-rapid-deflate-valve-stem"
 }
