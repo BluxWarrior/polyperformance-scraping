@@ -8,3 +8,5 @@ products*.json
 
 _data
 test.json
+
+output.csv
