@@ -188,7 +188,7 @@ async function get_product_deatils() {
       if (numberoffiles === 0) numberoffiles++;
 
 
-      for (const brand of metadata.slice(35)) {
+      for (const brand of metadata.slice(numberoffiles - 1)) {
         const brandname = brand["brand name"];
 
         // load data
