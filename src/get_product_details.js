@@ -64,6 +64,11 @@ async function getbyoption(page, optionname) {
       }
     });
 
+
+    if (images.length === 0) {
+      let img = document.querySelector('img[class="gallery-placeholder__image"]').src
+      images.push(img);
+    }
     return images
   });
   productData['images'] = images;

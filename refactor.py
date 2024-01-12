@@ -46,15 +46,18 @@ def get_new_data(data):
     return new_data
 
 def remove_duplicated_data(data):
-    skus = []
+    skus = {}
+    for dt in data:
+        skus[dt['name']] = []
+
     new_data = []
 
     for dt in data:
         new_options = []
         for op in dt['options']:
-            if op['skuNumber'] not in skus:
+            if op['skuNumber'] not in skus[dt['name']]:
                 new_options.append(op)
-                skus.append(op['skuNumber'])
+                skus[dt['name']].append(op['skuNumber'])
         if (len(new_options) > 0):
             new_data.append({
                 'options': new_options,
