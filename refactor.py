@@ -7,7 +7,6 @@ filenames = os.listdir("./assets/data")
 
 def get_new_data(data):
     producturls = [x['url'] for x in data]
-    skus = []
 
     new_data = []
     for dt in data:
