@@ -86,6 +86,7 @@ async function get_details(page, metadata, brandname) {
           options.push({ 'name': option.textContent.trim(), 'value': option.value });
         }
       });
+      if (options.length === 0) throw new Error('Option not found exception: Something went wrong!');
     }
     return options
   });
