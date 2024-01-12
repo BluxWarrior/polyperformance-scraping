@@ -10,5 +10,7 @@ const get_product_metadata = require('./src/get_product_metadata');
 const get_product_details = require('./src/get_product_details');
 
 (async () => {
+    await get_brands();
+    await get_product_metadata();
     await get_product_details();
 })();
