@@ -65,10 +65,10 @@ async function getbyoption(page, optionname) {
     });
 
 
-    if (images.length === 0) {
-      let img = document.querySelector('img[class="gallery-placeholder__image"]').src
-      images.push(img);
-    }
+    // if (images.length === 0) {
+    //   let img = document.querySelector('img[class="gallery-placeholder__image"]').src
+    //   images.push(img);
+    // }
     return images
   });
   productData['images'] = images;
@@ -112,10 +112,20 @@ async function get_details(page, metadata, brandname) {
     let optionData = await getbyoption(page, 'original');
     while (optionData['images'].length === 0) {
       if (count > 5) throw new Error('Forced exception: Something went wrong!');
-      console.log(metadata['url']);
-      await page.goto(metadata['url']);
-      await sleep(3000);
-      optionData = await getbyoption(page, 'original');
+      if (count === 5) {
+        const img = await page.evaluate(() => {
+          return document.querySelector('img[class="gallery-placeholder__image"]').src
+        })
+        optionData['images'].push(img)
+        // optionData.push(document.querySelector('img[class="gallery-placeholder__image"]').src
+        // images.push(img);)
+      }
+      else {
+        console.log(metadata['url']);
+        await page.goto(metadata['url']);
+        await sleep(3000);
+        optionData = await getbyoption(page, 'original');
+      }
       count++;
     }
     options.push(optionData);

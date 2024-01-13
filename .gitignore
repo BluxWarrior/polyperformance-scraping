@@ -9,4 +9,6 @@ products*.json
 _data
 test.json
 
+__*
+
 output.csv

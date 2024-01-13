@@ -36,49 +36,82 @@ async function get_metadata(page, brand) {
     return metadata;
 }
 
-async function get_product_metadata() {
-    let finished = false
-    while (!finished) {
-        try {
-            await sleep(1000);
-            exec('killall chrome');
-            await sleep(1000);
-            exec('/opt/google/chrome/chrome --profile-directory="Default" --guest --remote-debugging-port=9222');
+async function get_product_metadata(numberofprocess = 4) {
+    const brands = JSON.parse(fs.readFileSync('./assets/brands.json', 'utf8'));
+    const chunksize = Math.ceil(brands.length / numberofprocess);
+
+    let products = { 'completed': false, 'data': [] };
+
+    for (let i = 0; i < numberofprocess; i++)
+        products['data'].push([]);
+    // check if the mata file exists
+    if (fs.existsSync('./assets/metadata.json')) products = JSON.parse(fs.readFileSync('./assets/metadata.json', 'utf8'));
+
+
+    const singleProcess = async (processnumber) => {
+        console.log(processnumber)
+        let finished = false
+        while (!finished) {
+            console.log(finished)
+            exec(`/opt/google/chrome/chrome --user-data-dir=/tmp/chrome-profile${processnumber} --guest --remote-debugging-port=${9222 + processnumber}`);
             await sleep(1000);
 
-            const browserURL = 'http://127.0.0.1:9222';
+            const browserURL = `http://127.0.0.1:${9222 + processnumber}`;
 
             const browser = await puppeteer.connect({ browserURL });
             const page = (await browser.pages())[0];
 
 
-            let products = []
-            // check if the mata file exists
-            if (fs.existsSync('./assets/metadata.json')) products = JSON.parse(fs.readFileSync('./assets/metadata.json', 'utf8'));
-            const brands = JSON.parse(fs.readFileSync('./assets/brands.json', 'utf8'));
+            try {
+                for (const bd of brands.slice(chunksize * processnumber + products['data'][processnumber].length, chunksize * (processnumber + 1))) {
+                    console.log(bd["url"]);
+                    brandproducts = await get_metadata(page, bd);
+                    if (brandproducts['products'].length === 0) throw new Error('Forced exception: No products!');
 
-            for (const bd of brands.slice(products.length)) {
-                brandproducts = await get_metadata(page, bd);
-                if (brandproducts['products'].length === 0) throw new Error('Forced exception: No products!');
+                    products['data'][processnumber].push(brandproducts);
 
-                products.push(brandproducts);
+                    const jsonContent = JSON.stringify(products, null, 2);
+                    fs.writeFileSync('./assets/metadata.json', jsonContent, 'utf8', (err) => {
+                        if (err) {
+                            console.error('An error occurred:', err);
+                            return;
+                        }
+                        console.log('JSON file has been saved.');
+                    });
+                }
 
-                const jsonContent = JSON.stringify(products, null, 2);
-                fs.writeFileSync('./assets/metadata.json', jsonContent, 'utf8', (err) => {
-                    if (err) {
-                        console.error('An error occurred:', err);
-                        return;
-                    }
-                    console.log('JSON file has been saved.');
-                });
+                finished = true;
+                browser.close();
+            } catch (error) {
+                console.log(error);
+                browser.close();
             }
-
-            finished = true;
-            exec('killall chrome');
-        } catch (error) {
-            console.log(error)
         }
     }
+
+
+    const processes = [];
+    for (let processnumber = 0; processnumber < numberofprocess; processnumber++) {
+        processes.push(singleProcess(processnumber)); // Assuming the process numbers start from 0 and increment by 1
+    }
+
+    await Promise.all(processes).then(() => {
+        products['completed'] = true;
+        let data = []
+        for (const subcat of categories['data'])
+            data = data.concat(subcat)
+        products['data'] = data;
+
+        const jsonContent = JSON.stringify(products, null, 2);
+
+        fs.writeFileSync("./assets/categories.json", jsonContent, "utf8", (err) => {
+            if (err) {
+                console.error("An error occurred:", err);
+                return;
+            }
+            console.log("JSON file has been saved.");
+        });
+    })
 }
 
 
