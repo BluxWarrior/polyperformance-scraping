@@ -15,12 +15,12 @@ async function getbyoption(page, optionname) {
     let oldpriceDiv = undefined;
     if (priceDiv) {
       finalpriceDiv = priceDiv.querySelector('span[data-price-type="finalPrice"]');
-      oldpriceDiv = priceDiv.querySelector('span[data-price-type="oldPrice"]');
+      oldpriceDiv = document.querySelector('span[class="old-price sly-old-price no-display"]');
     }
 
     let skuNumber = skuDiv ? skuDiv.textContent : '';
     let finalprice = finalpriceDiv ? finalpriceDiv.textContent.replace('$', '') : '';
-    let oldprice = oldpriceDiv ? oldpriceDiv.textContent.replace('$', '') : '';
+    let oldprice = oldpriceDiv ? oldpriceDiv.querySelector('span[data-price-type="oldPrice"]').textContent.replace('$', '') : '';
     // let description = descriptionElement ? descriptionElement.innerHTML.trim() : '';
 
     return { 'skuNumber': skuNumber, 'finalprice': finalprice, 'oldprice': oldprice };

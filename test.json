@@ -1,76 +1,51 @@
 {
   "options": [
     {
-      "skuNumber": "APX-RPVRDVS_PARENT_ITEM",
-      "finalprice": "35.00",
-      "oldprice": "",
+      "skuNumber": "182_PARENT_ITEM",
+      "finalprice": "679.95",
+      "oldprice": "679.95",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-1.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-2.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-3.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-4.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-5.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-6.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-7.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-rpvrdvs_parent_item-8.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_4.jpg"
       ],
       "optionname": "original"
     },
     {
-      "skuNumber": "APX-X02-02-001",
-      "finalprice": "120.00",
-      "oldprice": "",
+      "skuNumber": "FOX-980-02-241",
+      "finalprice": "577.96",
+      "oldprice": "679.95",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-1.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-2.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-3.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-4.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-5.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-001-6.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock.jpg"
       ],
-      "optionname": "APX-X02-02-001 +$85.00"
+      "optionname": "FOX-980-02-241 -$101.99"
     },
     {
-      "skuNumber": "APX-X02-02-002",
-      "finalprice": "35.00",
-      "oldprice": "",
+      "skuNumber": "FOX-980-02-242",
+      "finalprice": "577.96",
+      "oldprice": "679.95",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-1.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-2.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-3.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-4.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-002-5.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_1.jpg"
       ],
-      "optionname": "APX-X02-02-002"
+      "optionname": "FOX-980-02-242 -$101.99"
     },
     {
-      "skuNumber": "APX-X02-02-003",
-      "finalprice": "140.00",
-      "oldprice": "",
+      "skuNumber": "FOX-980-02-243",
+      "finalprice": "594.96",
+      "oldprice": "699.95",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-1.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-2.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-3.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-4.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-5.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-003-6.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_2.jpg"
       ],
-      "optionname": "APX-X02-02-003 +$105.00"
+      "optionname": "FOX-980-02-243 -$84.99"
     },
     {
-      "skuNumber": "APX-X02-02-004",
-      "finalprice": "40.00",
-      "oldprice": "",
+      "skuNumber": "FOX-980-02-244",
+      "finalprice": "594.96",
+      "oldprice": "699.95",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-1.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-2.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-3.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-4.jpg",
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/a/p/apx-x02-02-004-5.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_3.jpg"
       ],
-      "optionname": "APX-X02-02-004 +$5.00"
+      "optionname": "FOX-980-02-244 -$84.99"
     }
   ],
-  "description": "<div class=\"value\"><p>This innovative, patent-pending fast deflation tire valve allows you to quickly dump street air pressure to your preferred off-road pressure.</p>\n<p><b>Here’s how it works:</b><br>\nUnscrew the valve stem cover and place your preferred pressure gauge onto the valve.<br>\nNow simply slide gate cover out and watch your air gauge real-time as the pressure drops.<br>\nSlide the gate cover closed and replace the cap...you're done.<br>\nThe toggle action allows you to precisely throttle the air to hit your exact desired pressure.<br>\n</p>\n<p>It’s fast...very fast. You can expect tire deflation from 35 PSI TO 10 PSI IN LESS THAN 15 SECONDS. [Based on a 35” tire]</p>\n<b>Features:</b>\n<ul>\n<li>Toggle style vent</li>\n<li>1,000 hr salt spray</li>\n<li>Viton seals are impervious to most any chemical and are UV/ozone resistant</li>\n<li>TPMS mount [works with VS-650/950 style TPMS, see TPMS info]</li>\n<li>Fits most any wheel by replacing the valve stem [see clearance info /send us a message to be sure]</li>\n<li>High grade aircraft 7075 aluminum is as strong as steel</li>\n<li>Valve cap and lanyard included</li>\n<li>No drilling needed!</li>\n</ul>\n<p>The standard length is appropriate for most wheels. This RPV is for valve stem recesses less than 0.6\"\" in depth. If you have wheels with deep valve stem recesses that are more than 0.600\"\" (e.g. beadlocks), RPV XL LENGTH are required.</p>\n<p><b><font color=\"red\">Note:</font></b> NEITHER SIZE ARE COMPATABILE WITH AEV WHEELS</p>\n<table style=\"width: 500px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"prod_details\">\n<tbody><tr>\n<th>Part #</th>\n<th>Qty of Valves</th>\n<th>Valve Length</th>\n</tr>\n<tr>\n<td>APX-X02-02-001</td>\n<td>4</td>\n<td>Standard</td>\n</tr>\n<tr>\n<td>APX-X02-02-002</td>\n<td>1</td>\n<td>Standard</td>\n</tr>\n<tr>\n<td>APX-X02-02-003</td>\n<td>4</td>\n<td>XL (Recess deeper than 0.600\")</td>\n</tr>\n<tr>\n<td>APX-X02-02-004</td>\n<td>1</td>\n<td>XL (Recess deeper than 0.600\")</td>\n</tr>\n</tbody></table>\n<p><a href=\"https://cdn.shopify.com/s/files/1/0265/5790/6991/files/Valve_Clearance_REV3.pdf?v=1599091334\" target=\"_blank\">Installation Instructions</a></p>\n<p><a href=\"https://www.apexdesignsusa.com/pages/3-0-apex-rapid-precision-valve-tpms-fitment\" target=\"_blank\">Fitment Info</a></p>\n</div><p class=\"firebear_custom_block1\"></p><p class=\"firebear_custom_block2\"></p><p class=\"firebear_custom_block3\"></p><p class=\"firebear_custom_block4\"></p>",
-  "parent_url": "https://www.polyperformance.com/apex-designs-rpv-rapid-deflate-valve-stem"
+  "description": "<div class=\"value\"><p>The design of the off-road Factory Race Series air shock allows for infinite adjustability of the spring rate by varying the nitrogen charge pressure. FOX's first air shock was invented by Bob Fox back in 1974 and has been highly refined in the 30-plus years they’ve been producing them.</p>\n<p>The off-road Factory Race Series air shock uses the identical race-proven performance damping technology as their other Factory Race Series off-road shocks, so servicing and valving adjustments are the same. Incredibly strong yet lightweight hollow shock shafts further reduce weight on these shocks that are ideal for competition rock crawlers.</p>\n<p><strong>Shock Family Features:</strong></p>\n<ul><li>Body - Smooth bore and honed seamless steel<br>\n</li>\n<li>Body Plating - Body Plating Zinc plated and clear coated for a long lasting finish<br>\n</li>\n<li>Components - Black anodized, CNC machined 6061-T6 billet aluminum<br>\n</li>\n<li>Piston - 6061-T6 hard-anodized high-flow aluminum piston<br>\n</li>\n<li>Valving - Tunable, velocity sensitive deburred valve shims<br>\n</li>\n<li>Seals - Redundant sealing pack system, main seal, wiper seal, scraper seal<br>\n</li>\n<li>Oil - JM92 Advanced Suspension Fluid for improved performance at variable temperaturesShafts - Hard chromed 4130 steel<br>\n</li>\n<li>Bearing - Spherical -10 series, PFTE-lined, heat-treated alloy steel</li>\n</ul>\n<p><strong>Poly Performance stocks shocks as below</strong>, if you require anything different or would like custom valving we would be happy to assist you, please contact us.</p>\n<ul>\n<li>1.5\" mounting width with 1/2\" bolt </li>\n<li>Fox 40/80 valving</li>\n</ul>\n<p><span style=\"color: #ff0000;\">Sold Individually, not as a pair or set</span></p>\n<table style=\"width: 700px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"prod_details\">\n<tbody><tr>\n<th>Part #</th>\n<th>Travel</th>\n<th>Shaft Size (in)</th>\n<th>Compressed</th>\n<th>Extended</th>\n<th>Factory Oil Level (mL)&nbsp;</th>\n</tr>\n<tr>\n<td>FOX-980-02-241</td>\n<td>12.0\"</td>\n<td>1-5/8\"</td>\n<td>22.65\"</td>\n<td>34.65\"</td>\n<td>515</td>\n</tr>\n<tr>\n<td>FOX-980-02-242</td>\n<td>14.0\"</td>\n<td>1-5/8\"</td>\n<td>24.65\"</td>\n<td>38.65\"</td>\n<td>585</td>\n</tr>\n<tr>\n<td>FOX-980-02-243</td>\n<td>16.0\"</td>\n<td>1-5/8\"</td>\n<td>26.65\"</td>\n<td>42.65\"</td>\n<td>655</td>\n</tr>\n<tr>\n<td>FOX-980-02-244</td>\n<td>18.0\"</td>\n<td>1-5/8\"</td>\n<td>28.65\"</td>\n<td>46.65\"</td>\n<td>690</td>\n</tr>\n</tbody></table>\n</div><p class=\"firebear_custom_block1\"></p><p class=\"firebear_custom_block2\"></p><p class=\"firebear_custom_block3\"></p><p class=\"firebear_custom_block4\"></p>",
+  "parent_url": "https://www.polyperformance.com/182-parent-item-fox-25-factory-race-series-air-shock"
 }

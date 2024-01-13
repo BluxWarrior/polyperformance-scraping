@@ -12,11 +12,11 @@ async function getbyoption(page, optionname) {
 
         const priceDiv = document.querySelector('span[itemprop="offers"]');
         const finalpriceDiv = priceDiv.querySelector('span[data-price-type="finalPrice"]');
-        const oldpriceDiv = priceDiv.querySelector('span[data-price-type="oldPrice"]');
+        const oldpriceDiv = document.querySelector('span[class="old-price sly-old-price no-display"]');
 
         let skuNumber = skuDiv ? skuDiv.textContent : '';
         let finalprice = finalpriceDiv ? finalpriceDiv.textContent.replace('$', '') : '';
-        let oldprice = oldpriceDiv ? oldpriceDiv.textContent.replace('$', '') : '';
+        let oldprice = oldpriceDiv ? oldpriceDiv.querySelector('span[data-price-type="oldPrice"]').textContent.replace('$', '') : '';
         // let description = descriptionElement ? descriptionElement.innerHTML.trim() : '';
 
         return { 'skuNumber': skuNumber, 'finalprice': finalprice, 'oldprice': oldprice };
@@ -82,7 +82,7 @@ async function getbyoption(page, optionname) {
     const page = (await browser.pages())[0];
 
 
-    await page.goto('https://www.polyperformance.com/apex-designs-rpv-rapid-deflate-valve-stem', { timeout: 60000 });
+    await page.goto('https://www.polyperformance.com/182-parent-item-fox-25-factory-race-series-air-shock', { timeout: 60000 });
     await sleep(3000);
 
 

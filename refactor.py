@@ -197,9 +197,11 @@ def convert(data, output_file_path):
     print(f"The JSON data has been successfully converted to '{output_file_path}'.")
 
 def get_csv():
+    with open("./assets/brands.json", "r", encoding="utf-8") as f:
+        brands = json.load(f)
     data = []
-    for fn in filenames:
-        with open(f"./assets/data/{fn}", "r", encoding="utf-8") as f:
+    for bd in brands:
+        with open(f"./assets/data/{bd['name']}.json", "r", encoding="utf-8") as f:
             data += json.load(f)
 
     new_data = get_new_data(data)
