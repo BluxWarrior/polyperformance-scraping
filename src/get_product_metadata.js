@@ -98,13 +98,14 @@ async function get_product_metadata(numberofprocess = 4) {
     await Promise.all(processes).then(() => {
         products['completed'] = true;
         let data = []
-        for (const subcat of categories['data'])
+        for (const subcat of products['data'])
             data = data.concat(subcat)
         products['data'] = data;
+        console.log(products['data'].length)
 
         const jsonContent = JSON.stringify(products, null, 2);
 
-        fs.writeFileSync("./assets/categories.json", jsonContent, "utf8", (err) => {
+        fs.writeFileSync("./assets/metadata.json", jsonContent, "utf8", (err) => {
             if (err) {
                 console.error("An error occurred:", err);
                 return;
