@@ -180,10 +180,19 @@ async function get_details(page, metadata, brandname) {
 
 
 
-async function get_product_deatils() {
-  let finished = false
-  while (!finished) {
-    try {
+async function get_product_deatils(numberofprocess = 4) {
+  const metadata = JSON.parse(fs.readFileSync("./assets/metadata.json", "utf8"))["data"];
+  const chunksize = Math.ceil(metadata.length / numberofprocess);
+
+
+  // create directory if data doesn't exist
+  if (!fs.existsSync('./assets/data')) fs.mkdirSync('./assets/data', { recursive: true });
+
+
+  const singleProcess = async (processnumber) => {
+    let finished = false
+
+    while (!finished) {
       await sleep(1000);
       exec('killall chrome');
       await sleep(1000);
@@ -194,64 +203,67 @@ async function get_product_deatils() {
 
       const browser = await puppeteer.connect({ browserURL });
       const page = (await browser.pages())[0];
+      try {
 
-      // create directory if data doesn't exist
-      if (!fs.existsSync('./assets/data')) fs.mkdirSync('./assets/data', { recursive: true });
-
-      const metadata = JSON.parse(fs.readFileSync("./assets/metadata.json", "utf8"));
-
-      let numberoffiles = fs.readdirSync("./assets/data").length;
-      if (numberoffiles === 0) numberoffiles++;
+        // create directory if data doesn't exist
+        if (!fs.existsSync('./assets/data')) fs.mkdirSync('./assets/data', { recursive: true });
 
 
-      for (const brand of metadata.slice(numberoffiles - 1)) {
-        const brandname = brand["brand name"];
 
-        // load data
-        let data = [];
-        if (fs.existsSync(`./assets/data/${brandname}.json`)) data = JSON.parse(fs.readFileSync(`./assets/data/${brandname}.json`, "utf8"));
-        else {
-          console.log("New Brand:    ", brandname);
-          fs.writeFileSync(
-            `./assets/data/${brandname}.json`,
-            '[]',
-            "utf8",
-            (err) => {
-              if (err) {
-                console.error("An error occurred:", err);
-                return;
+        let numberoffiles = fs.readdirSync("./assets/data").length;
+        if (numberoffiles === 0) numberoffiles++;
+
+
+        for (const brand of metadata.slice(numberoffiles - 1)) {
+          const brandname = brand["brand name"];
+
+          // load data
+          let data = [];
+          if (fs.existsSync(`./assets/data/${brandname}.json`)) data = JSON.parse(fs.readFileSync(`./assets/data/${brandname}.json`, "utf8"));
+          else {
+            console.log("New Brand:    ", brandname);
+            fs.writeFileSync(
+              `./assets/data/${brandname}.json`,
+              '[]',
+              "utf8",
+              (err) => {
+                if (err) {
+                  console.error("An error occurred:", err);
+                  return;
+                }
+                console.log("JSON file has been saved.");
               }
-              console.log("JSON file has been saved.");
-            }
-          );
+            );
+          }
+
+          for (const mt of brand["products"].slice(data.length)) {
+            data.push(await get_details(page, mt, brandname));
+
+            const jsonContent = JSON.stringify(data, null, 2);
+            fs.writeFileSync(
+              `./assets/data/${brandname}.json`,
+              jsonContent,
+              "utf8",
+              (err) => {
+                if (err) {
+                  console.error("An error occurred:", err);
+                  return;
+                }
+                console.log("JSON file has been saved.");
+              }
+            );
+          }
+
         }
 
-        for (const mt of brand["products"].slice(data.length)) {
-          data.push(await get_details(page, mt, brandname));
-
-          const jsonContent = JSON.stringify(data, null, 2);
-          fs.writeFileSync(
-            `./assets/data/${brandname}.json`,
-            jsonContent,
-            "utf8",
-            (err) => {
-              if (err) {
-                console.error("An error occurred:", err);
-                return;
-              }
-              console.log("JSON file has been saved.");
-            }
-          );
-        }
-
+        exec('killall chrome');
+        finished = true;
+      } catch (error) {
+        console.log(error)
       }
-
-      exec('killall chrome');
-      finished = true;
-    } catch (error) {
-      console.log(error)
     }
   }
+
 }
 
 module.exports = get_product_deatils;
