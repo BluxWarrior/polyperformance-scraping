@@ -61,3 +61,5 @@ async function get_progress() {
   const process = await get_progress();
   console.log(process);
 })();
+
+module.exports = get_progress;
