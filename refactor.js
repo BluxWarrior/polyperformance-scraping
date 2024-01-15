@@ -219,8 +219,10 @@ async function getCSV() {
   const brands = JSON.parse(fs.readFileSync("./assets/brands.json", "utf8"));
   let data = [];
   for (let bd of brands) {
-    const brandData = JSON.parse(fs.readFileSync(`./assets/data/${bd['name']}.json`, "utf8"));
-    data = data.concat(brandData);
+    if (fs.existsSync(`./assets/data${bd['name']}.json`)) {
+      const brandData = JSON.parse(fs.readFileSync(`./assets/data/${bd['name']}.json`, "utf8"));
+      data = data.concat(brandData);
+    }
   }
 
   const newData = getNewData(data);
