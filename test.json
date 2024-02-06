@@ -1,51 +1,273 @@
 {
   "options": [
     {
-      "skuNumber": "182_PARENT_ITEM",
-      "finalprice": "679.95",
-      "oldprice": "679.95",
+      "skuNumber": "30235_PARENT_ITEM",
+      "finalprice": "150.00",
+      "oldprice": "",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_4.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg"
       ],
       "optionname": "original"
     },
     {
-      "skuNumber": "FOX-980-02-241",
-      "finalprice": "577.96",
-      "oldprice": "679.95",
+      "skuNumber": "FOX-985-24-155",
+      "finalprice": "199.95",
+      "oldprice": "",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
       ],
-      "optionname": "FOX-980-02-241 -$101.99"
+      "optionname": "FOX-985-24-155 +$49.95"
     },
     {
-      "skuNumber": "FOX-980-02-242",
-      "finalprice": "577.96",
-      "oldprice": "679.95",
+      "skuNumber": "FOX-985-24-061",
+      "finalprice": "199.95",
+      "oldprice": "",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_1.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
       ],
-      "optionname": "FOX-980-02-242 -$101.99"
+      "optionname": "FOX-985-24-061 +$49.95"
     },
     {
-      "skuNumber": "FOX-980-02-243",
-      "finalprice": "594.96",
-      "oldprice": "699.95",
+      "skuNumber": "FOX-980-02-274",
+      "finalprice": "120.00",
+      "oldprice": "",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_2.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
       ],
-      "optionname": "FOX-980-02-243 -$84.99"
+      "optionname": "FOX-980-02-274 -$30.00"
     },
     {
-      "skuNumber": "FOX-980-02-244",
-      "finalprice": "594.96",
-      "oldprice": "699.95",
+      "skuNumber": "FOX-980-24-646",
+      "finalprice": "169.96",
+      "oldprice": "",
       "images": [
-        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox_offroad_25_factory_airshock_3.jpg"
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
       ],
-      "optionname": "FOX-980-02-244 -$84.99"
+      "optionname": "FOX-980-24-646 +$19.96"
+    },
+    {
+      "skuNumber": "FOX-980-24-647",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-647 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-648",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-648 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-649",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-649 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-650",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-650 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-651",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-651 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-652",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-652 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-653",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-653 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-654",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-654 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-655",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-655 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-656",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-656 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-657",
+      "finalprice": "139.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-657 -$10.05"
+    },
+    {
+      "skuNumber": "FOX-980-24-665",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-pr.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-985-24-155-truck-performance-smooth-body-shock-op-copy.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-bottom-mount-eyelet-2_1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-shared-mount-stem-f-series-2.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-stock-photo-f150-ls-a.jpg"
+      ],
+      "optionname": "FOX-980-24-665 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-980-24-677",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-980-24-677-truck-performance-shock-pr-1200.jpg"
+      ],
+      "optionname": "FOX-980-24-677 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-985-24-029",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-980-24-677-truck-performance-shock-pr-1200.jpg"
+      ],
+      "optionname": "FOX-985-24-029 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-985-24-030",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-980-24-677-truck-performance-shock-pr-1200.jpg"
+      ],
+      "optionname": "FOX-985-24-030 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-985-24-045",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-980-24-677-truck-performance-shock-pr-1200.jpg"
+      ],
+      "optionname": "FOX-985-24-045 +$49.95"
+    },
+    {
+      "skuNumber": "FOX-985-24-069",
+      "finalprice": "199.95",
+      "oldprice": "",
+      "images": [
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/h/t/httpwww.polyperformance.comimages104161_main-1.jpg",
+        "https://www.polyperformance.com/media/catalog/product/cache/a9c76a049f832d84d865b7faf9823bd1/f/o/fox-980-24-677-truck-performance-shock-pr-1200.jpg"
+      ],
+      "optionname": "FOX-985-24-069 +$49.95"
     }
   ],
-  "description": "<div class=\"value\"><p>The design of the off-road Factory Race Series air shock allows for infinite adjustability of the spring rate by varying the nitrogen charge pressure. FOX's first air shock was invented by Bob Fox back in 1974 and has been highly refined in the 30-plus years they’ve been producing them.</p>\n<p>The off-road Factory Race Series air shock uses the identical race-proven performance damping technology as their other Factory Race Series off-road shocks, so servicing and valving adjustments are the same. Incredibly strong yet lightweight hollow shock shafts further reduce weight on these shocks that are ideal for competition rock crawlers.</p>\n<p><strong>Shock Family Features:</strong></p>\n<ul><li>Body - Smooth bore and honed seamless steel<br>\n</li>\n<li>Body Plating - Body Plating Zinc plated and clear coated for a long lasting finish<br>\n</li>\n<li>Components - Black anodized, CNC machined 6061-T6 billet aluminum<br>\n</li>\n<li>Piston - 6061-T6 hard-anodized high-flow aluminum piston<br>\n</li>\n<li>Valving - Tunable, velocity sensitive deburred valve shims<br>\n</li>\n<li>Seals - Redundant sealing pack system, main seal, wiper seal, scraper seal<br>\n</li>\n<li>Oil - JM92 Advanced Suspension Fluid for improved performance at variable temperaturesShafts - Hard chromed 4130 steel<br>\n</li>\n<li>Bearing - Spherical -10 series, PFTE-lined, heat-treated alloy steel</li>\n</ul>\n<p><strong>Poly Performance stocks shocks as below</strong>, if you require anything different or would like custom valving we would be happy to assist you, please contact us.</p>\n<ul>\n<li>1.5\" mounting width with 1/2\" bolt </li>\n<li>Fox 40/80 valving</li>\n</ul>\n<p><span style=\"color: #ff0000;\">Sold Individually, not as a pair or set</span></p>\n<table style=\"width: 700px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"prod_details\">\n<tbody><tr>\n<th>Part #</th>\n<th>Travel</th>\n<th>Shaft Size (in)</th>\n<th>Compressed</th>\n<th>Extended</th>\n<th>Factory Oil Level (mL)&nbsp;</th>\n</tr>\n<tr>\n<td>FOX-980-02-241</td>\n<td>12.0\"</td>\n<td>1-5/8\"</td>\n<td>22.65\"</td>\n<td>34.65\"</td>\n<td>515</td>\n</tr>\n<tr>\n<td>FOX-980-02-242</td>\n<td>14.0\"</td>\n<td>1-5/8\"</td>\n<td>24.65\"</td>\n<td>38.65\"</td>\n<td>585</td>\n</tr>\n<tr>\n<td>FOX-980-02-243</td>\n<td>16.0\"</td>\n<td>1-5/8\"</td>\n<td>26.65\"</td>\n<td>42.65\"</td>\n<td>655</td>\n</tr>\n<tr>\n<td>FOX-980-02-244</td>\n<td>18.0\"</td>\n<td>1-5/8\"</td>\n<td>28.65\"</td>\n<td>46.65\"</td>\n<td>690</td>\n</tr>\n</tbody></table>\n</div><p class=\"firebear_custom_block1\"></p><p class=\"firebear_custom_block2\"></p><p class=\"firebear_custom_block3\"></p><p class=\"firebear_custom_block4\"></p>",
-  "parent_url": "https://www.polyperformance.com/182-parent-item-fox-25-factory-race-series-air-shock"
+  "description": "<div class=\"value\"><p>The 2.0 Performance Series Shocks delivers race-dominating performance in a hassle free bolt-on package. Their heat-reducing design includes a metal-impacted aluminum shock body that dissipates heat faster than conventional steel. Inside the Internal Floating Piston (IFP) separates shock oil from a high-pressure nitrogen gas chamber that provides a predicable ride quality capable of handling the roughest road conditions. Combine these new technologies with a competitive price for a winning combination.</p>\n<p><b>Specifications:</b></p>\n<ul>\n<li>Body - Aluminum shock body dissipates heat three times faster than steel.</li>\n<li>Components - Black anodized 6061-T6 billet aluminum</li>\n<li>Shaft - 5/8\" hard chrome plated heat treated alloy steel</li>\n<li>Piston - Race-developed high-flow piston design</li>\n<li>Valving - Application specific valving to maximize offroad performance</li>\n<li>Seals - Redundant sealing pack system main seal, wiper seal, scraper seal</li>\n<li>Oil - Specially formulated for ultimate performance at variable temperatures</li>\n<li>Reservoir - Internal reservoir design separates shock oil from the high-pressure nitrogen</li>\n<li>Mounting - Applications available for stock and aftermarket lifts kits</li>\n</ul>\n<p><b>Adjustments:</b></p>\n<ul>\n<li>Nitrogen pressure</li>\n<li>Compression valving</li>\n<li>Rebound valving</li>\n</ul>\n<table class=\"prod_details\" style=\"max-width: 650px;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr><th>Part #</th><th>Model</th><th>Year</th><th>Drive</th><th>Position</th><th>Lift</th></tr>\n<tr>\n<td>FOX-985-24-045</td>\n<td>F150</td>\n<td>1997-2003 &amp; 2004 Heritage 4WD</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-2''</td>\n</tr>\n<tr>\n</tr><tr>\n<td>FOX-985-24-155</td>\n<td>F250/F350</td>\n<td>2005+ Ford F250/350 Super Duty</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n</tr><tr>\n<td>FOX-980-02-274</td>\n<td>F150</td>\n<td>2004 Ford F150 2WD</td>\n<td>2WD</td>\n<td>Front</td>\n<td>0-2''</td>\n</tr>\n<tr><td>FOX-980-24-650</td>\n<td>F150</td>\n<td>1997-2003 &amp; 2004 Heritage 2WD</td>\n<td>2WD</td>\n<td>Front</td>\n<td>1-3''</td>\n</tr>\n<tr>\n<td>FOX-980-24-651</td>\n<td>F150</td>\n<td>1997-2003 &amp; 2004 Heritage 2WD</td>\n<td>2WD</td>\n<td>Rear</td>\n<td>0-2\"</td>\n</tr>\n\n<tr>\n<td>FOX-985-24-030</td>\n<td>F150</td>\n<td>2004-2008</td>\n<td>2WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-657</td>\n<td>F150</td>\n<td>2004-2008</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-657</td>\n<td>F150</td>\n<td>2009-2015</td>\n<td>2WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-029</td>\n<td>F150</td>\n<td>2009-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-654</td>\n<td>F250</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F250</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F250</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F250</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F250</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F250</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F250</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-654</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1-2\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1-2\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>2.5-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4.5-6.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1-2\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>2.5-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Cab Chassis/Utlity)</td>\n<td>2008-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4.5-6.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-654</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>1999-2004</td>\n<td>4WD</td>\n<td>Front</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2005-2007</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2008-2010</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-665</td>\n<td>F350 (Non-Chassis Cab)</td>\n<td>2011-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>4-6\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-654</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>2-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>4.5-5.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>6-8\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>2-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>4.5-5.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F450 (Cab Chassis/Utility)</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>6-8\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-654</td>\n<td>F550</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F550</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>1.5-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F550</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F550</td>\n<td>1999-2004</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>1.5-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>2-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>4.5-5.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F550</td>\n<td>2005-2007</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>6-8\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-677</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-646</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>2-3.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-061</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>4-5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-652</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Front</td>\n<td>5.5-7\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-656</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-655</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>2-4\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-647</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>4.5-5.5\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-653</td>\n<td>F550</td>\n<td>2008-2015</td>\n<td>2WD/4WD</td>\n<td>Rear</td>\n<td>6-8\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-648</td>\n<td>Ranger</td>\n<td>1998-2013</td>\n<td>2WD</td>\n<td>Front</td>\n<td>0-3\"</td>\n</tr>\n<tr>\n<td>FOX-980-24-649</td>\n<td>Ranger</td>\n<td>1998-2013</td>\n<td>2WD</td>\n<td>Rear</td>\n<td>2-3\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-069</td>\n<td>Ranger T6</td>\n<td>2012-2015</td>\n<td>4WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n<tr>\n<td>FOX-985-24-069</td>\n<td>Ranger T6 Hi-Rider</td>\n<td>2012-2015</td>\n<td>2WD</td>\n<td>Rear</td>\n<td>0-1.5\"</td>\n</tr>\n</tbody>\n</table></div><p class=\"firebear_custom_block1\"></p><p class=\"firebear_custom_block2\"></p><p class=\"firebear_custom_block3\"></p><p class=\"firebear_custom_block4\"></p>",
+  "parent_url": "https://www.polyperformance.com/30235-parent-item-fox-20-performance-series-ifp-smooth-body-shock-for-ford"
 }

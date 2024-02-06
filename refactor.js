@@ -157,6 +157,9 @@ function refactor(data) {
 
         // options logic
         if (optionname === "original" || dt.options.length === 1 || oid !== 0 || i !== 0) {
+          tempPd.Title = "";
+          tempPd["Body (HTML)"] = "";
+          tempPd.Vendor = "";
           tempPd['Option1 Name'] = "";
           tempPd['Option1 Value'] = "";
         }

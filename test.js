@@ -62,6 +62,7 @@ async function getbyoption(page, optionname) {
 
         return images
     });
+    console.log(images)
     productData['images'] = images;
     productData['optionname'] = optionname;
     return productData
@@ -82,7 +83,7 @@ async function getbyoption(page, optionname) {
     const page = (await browser.pages())[0];
 
 
-    await page.goto('https://www.polyperformance.com/182-parent-item-fox-25-factory-race-series-air-shock', { timeout: 60000 });
+    await page.goto('https://www.polyperformance.com/arb-air-locker-differential-parts', { timeout: 60000 });
     await sleep(3000);
 
 
