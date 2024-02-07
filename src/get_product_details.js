@@ -139,12 +139,18 @@ async function get_details(page, metadata, brandname) {
     return description;
   });
 
+  // get tree using regex pattern
+  const html = await page.content();
+  const pattern = /window\.google_tag_params\.ecomm_category\s*=\s*'([^']+)'/i;
+  const match = pattern.exec(html);
+  const tree = match[1];
+
   // get tree
-  const tree = await page.evaluate(() => {
-    return document
-      .querySelector('button[title="Add to Cart"]')
-      .getAttribute("data-category");
-  });
+  // const tree = await page.evaluate(() => {
+  //   return document
+  //     .querySelector('button[title="Add to Cart"]')
+  //     .getAttribute("data-category");
+  // });
 
   // get details by option
   let options = [];
@@ -246,6 +252,9 @@ async function get_product_deatils() {
       const metadata = JSON.parse(
         fs.readFileSync("./assets/metadata.json", "utf8")
       );
+      const tree_table = JSON.parse(
+        fs.readFileSync("./assets/tree_table.json", "utf8")
+      );
 
       let numberoffiles = fs.readdirSync("./assets/data").length;
       if (numberoffiles === 0) numberoffiles++;
@@ -261,34 +270,24 @@ async function get_product_deatils() {
           );
         else {
           console.log("New Brand:    ", brandname);
-          fs.writeFileSync(
-            `./assets/data/${brandname}.json`,
-            "[]",
-            "utf8",
-            (err) => {
-              if (err) {
-                console.error("An error occurred:", err);
-                return;
-              }
-              console.log("JSON file has been saved.");
-            }
-          );
+          fs.writeFileSync(`./assets/data/${brandname}.json`, "[]", "utf8");
         }
 
         for (const mt of brand["products"].slice(data.length)) {
-          data.push(await get_details(page, mt, brandname));
+          let product = await get_details(page, mt, brandname);
+
+          let tree = "";
+          if (tree_table[product.name]) {
+            console.log("tree exists");
+            tree = tree_table[product.name].tree.join("/");
+          } else tree = product.tree;
+
+          data.push(product);
           const jsonContent = JSON.stringify(data, null, 2);
           fs.writeFileSync(
             `./assets/data/${brandname}.json`,
             jsonContent,
-            "utf8",
-            (err) => {
-              if (err) {
-                console.error("An error occurred:", err);
-                return;
-              }
-              console.log("JSON file has been saved.");
-            }
+            "utf8"
           );
         }
       }

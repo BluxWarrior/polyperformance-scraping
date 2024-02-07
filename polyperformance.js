@@ -1,16 +1,17 @@
-const get_brands = require('./src/get_brand');
-const get_product_metadata = require('./src/get_product_metadata');
-const get_product_details = require('./src/get_product_details');
+const get_brands = require("./src/get_brand");
+const get_product_tree = require("./src/get_product_tree");
+const get_product_metadata = require("./src/get_product_metadata");
+const get_product_details = require("./src/get_product_details");
 
-const get_progress = require('./utils');
+const get_progress = require("./utils");
 
 (async () => {
-    const status = await get_progress();
+  const status = await get_progress();
 
-    if (status['brands'] < 100)
-        await get_brands();
-    if (status['metadata'] < 100)
-        await get_product_metadata();
-    if (status['details'] < 100)
-        await get_product_details();
+  if (status["brands"] < 100) {
+    await get_brands();
+    await get_product_tree();
+  }
+  if (status["metadata"] < 100) await get_product_metadata();
+  if (status["details"] < 100) await get_product_details();
 })();
