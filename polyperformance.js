@@ -13,5 +13,5 @@ const get_progress = require("./utils");
     await get_product_tree();
   }
   if (status["metadata"] < 100) await get_product_metadata();
-  if (status["details"] < 100) await get_product_details();
+  await get_product_details();
 })();

@@ -1,46 +1,47 @@
-const fs = require('fs');
-const path = require('path');
-const Papa = require('papaparse'); // Including papaparse for CSV operations
-const JSZip = require('jszip');
+const fs = require("fs");
+const path = require("path");
+const Papa = require("papaparse"); // Including papaparse for CSV operations
+const JSZip = require("jszip");
 
 function getNewData(data) {
-  const producturls = data.map(x => x['url']);
+  const producturls = data.map((x) => x["url"]);
 
   const new_data = [];
   for (let dt of data) {
-    let new_options = dt['options'];
+    let new_options = dt["options"];
     if (new_options.length > 1) {
       new_options = new_options.slice(1);
     }
 
-    if (dt['url'] !== dt['parent_url'] && dt['parent_url'] !== '') {
-      console.log('not matched parent    ', dt['url']);
+    if (dt["url"] !== dt["parent_url"] && dt["parent_url"] !== "") {
       try {
-        const id = producturls.indexOf(dt['parent_url']);
+        const id = producturls.indexOf(dt["parent_url"]);
         new_data.push({
-          'options': new_options,
-          'brand': dt['brand'],
-          'name': data[id]['name'],
-          'url': dt['url'],
-          'description': dt['description']
+          options: new_options,
+          brand: dt["brand"],
+          tree: data[id].tree,
+          name: data[id]["name"],
+          url: dt["url"],
+          description: dt["description"],
         });
       } catch (error) {
-        console.log('------- error');
         new_data.push({
-          'options': new_options,
-          'brand': dt['brand'],
-          'name': dt['name'],
-          'url': dt['url'],
-          'description': dt['description']
+          options: new_options,
+          brand: dt["brand"],
+          tree: dt.tree,
+          name: dt["name"],
+          url: dt["url"],
+          description: dt["description"],
         });
       }
     } else {
       new_data.push({
-        'options': new_options,
-        'brand': dt['brand'],
-        'name': dt['name'],
-        'url': dt['url'],
-        'description': dt['description']
+        options: new_options,
+        brand: dt["brand"],
+        tree: dt.tree,
+        name: dt["name"],
+        url: dt["url"],
+        description: dt["description"],
       });
     }
   }
@@ -53,13 +54,13 @@ function removeDuplicatedData(data) {
   const new_data = [];
 
   for (let dt of data) {
-    skus[dt['name']] = [];
+    skus[dt["name"]] = [];
   }
 
   for (let dt of data) {
-    const new_options = dt['options'].filter(op => {
-      if (!skus[dt['name']].includes(op['skuNumber'])) {
-        skus[dt['name']].push(op['skuNumber']);
+    const new_options = dt["options"].filter((op) => {
+      if (!skus[dt["name"]].includes(op["skuNumber"])) {
+        skus[dt["name"]].push(op["skuNumber"]);
         return true;
       }
       return false;
@@ -67,11 +68,12 @@ function removeDuplicatedData(data) {
 
     if (new_options.length > 0) {
       new_data.push({
-        'options': new_options,
-        'brand': dt['brand'],
-        'name': dt['name'],
-        'url': dt['url'],
-        'description': dt['description']
+        options: new_options,
+        brand: dt["brand"],
+        tree: dt.tree,
+        name: dt["name"],
+        url: dt["url"],
+        description: dt["description"],
       });
     }
   }
@@ -83,10 +85,19 @@ function refactor(data) {
   let refactoredData = [];
   let count = 0;
 
-  data.forEach(dt => {
-    const handle = dt.url.split('https://www.polyperformance.com/')[1];
+  data.forEach((dt) => {
+    const handle = dt.url.split("https://www.polyperformance.com/")[1];
     const title = dt.name;
     const body = dt.description;
+
+    let tree = "";
+    try {
+      tree = dt.tree.split("/");
+    } catch (err) {
+      console.log(dt);
+    }
+    const type = tree[tree.length - 1];
+    const tags = tree.join(",");
     const vendor = dt.brand;
 
     dt.options.forEach((option, oid) => {
@@ -114,9 +125,9 @@ function refactor(data) {
           "Body (HTML)": body,
           Vendor: vendor,
           "Product Category": "Vehicles & Parts > Vehicle Parts & Accessories",
-          "Type": "",
-          "Tags": "",
-          "Published": "",
+          Type: type,
+          Tags: tags,
+          Published: "",
           "Option1 Name": "Part #",
           "Option1 Value": optionname,
           "Variant SKU": skunumber,
@@ -152,31 +163,41 @@ function refactor(data) {
           "Included / International": "",
           "Price / International": "",
           "Compare At Price / International": "",
-          "Status": ""
+          Status: "active",
         };
 
         // options logic
-        if (optionname === "original" || dt.options.length === 1 || oid !== 0 || i !== 0) {
-          tempPd.Title = "";
-          tempPd["Body (HTML)"] = "";
-          tempPd.Vendor = "";
-          tempPd['Option1 Name'] = "";
-          tempPd['Option1 Value'] = "";
+        if (
+          optionname === "original" ||
+          dt.options.length === 1 ||
+          oid !== 0 ||
+          i !== 0
+        ) {
+          tempPd["Option1 Name"] = "";
         }
 
         if (oid !== 0) {
           tempPd.Title = "";
           tempPd["Body (HTML)"] = "";
           tempPd.Vendor = "";
+          tempPd.Type = "";
+          tempPd.Tags = "";
         }
 
         if (i !== 0) {
+          tempPd.Title = "";
+          tempPd["Body (HTML)"] = "";
+          tempPd.Vendor = "";
+          tempPd.Type = "";
+          tempPd.Tags = "";
+          tempPd["Option1 Value"] = "";
           tempPd["Variant SKU"] = "";
           tempPd["Variant Price"] = "";
           tempPd["Variant Compare At Price"] = "";
-          tempPd["Product Category"] = ""
-          tempPd["Variant Requires Shipping"] = ""
-          tempPd["Variant Taxable"] = ""
+          tempPd["Product Category"] = "";
+          tempPd["Variant Requires Shipping"] = "";
+          tempPd["Variant Taxable"] = "";
+          tempPd["Status"] = "";
         }
 
         refactoredData.push(tempPd);
@@ -193,11 +214,13 @@ function convertToCSV(data, outputPath) {
   // Since papaparse is a popular choice, this example will use it.
 
   const csv = Papa.unparse(data);
-  fs.writeFileSync(outputPath, csv, 'utf8');
-  console.log(`The JSON data has been successfully converted to '${outputPath}'.`);
+  fs.writeFileSync(outputPath, csv, "utf8");
+  console.log(
+    `The JSON data has been successfully converted to '${outputPath}'.`
+  );
 }
 
-function zipFile(filePath, outputZipPath, compressionLevel = 'DEFLATE') {
+function zipFile(filePath, outputZipPath, compressionLevel = "DEFLATE") {
   const zip = new JSZip();
   const fileName = path.basename(filePath);
 
@@ -208,13 +231,15 @@ function zipFile(filePath, outputZipPath, compressionLevel = 'DEFLATE') {
     zip.file(fileName, data, { compression: compressionLevel });
 
     // Generate the zip file as a buffer
-    zip.generateAsync({ type: 'nodebuffer', compression: compressionLevel }).then(function (content) {
-      // Write zip file to disk
-      fs.writeFile(outputZipPath, content, function (err) {
-        if (err) throw err;
-        console.log(`Zipped file saved to ${outputZipPath}`);
+    zip
+      .generateAsync({ type: "nodebuffer", compression: compressionLevel })
+      .then(function (content) {
+        // Write zip file to disk
+        fs.writeFile(outputZipPath, content, function (err) {
+          if (err) throw err;
+          console.log(`Zipped file saved to ${outputZipPath}`);
+        });
       });
-    });
   });
 }
 
@@ -222,17 +247,22 @@ async function getCSV() {
   const brands = JSON.parse(fs.readFileSync("./assets/brands.json", "utf8"));
   let data = [];
   for (let bd of brands) {
-    if (fs.existsSync(`./assets/data${bd['name']}.json`)) {
-      const brandData = JSON.parse(fs.readFileSync(`./assets/data/${bd['name']}.json`, "utf8"));
+    if (fs.existsSync(`./assets/data/${bd["name"]}.json`)) {
+      const brandData = JSON.parse(
+        fs.readFileSync(`./assets/data/${bd["name"]}.json`, "utf8")
+      );
       data = data.concat(brandData);
     }
   }
 
+  jsonContent = JSON.stringify(data, null, 2);
+  fs.writeFileSync("./assets/data.json", jsonContent, "utf8");
+
   const newData = getNewData(data);
   const removedData = removeDuplicatedData(newData);
   const refactoredData = refactor(removedData);
-  convertToCSV(refactoredData, './assets/output.csv');
-  zipFile('./assets/output.csv', './assets/output.zip')
+  convertToCSV(refactoredData, "./assets/output.csv");
+  zipFile("./assets/output.csv", "./assets/output.zip");
 }
 
 getCSV().catch(console.error);

@@ -9,6 +9,6 @@ products*.json
 _data
 test.json
 
-assets
+assets*
 
 output.csv

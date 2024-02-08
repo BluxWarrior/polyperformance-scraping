@@ -238,7 +238,7 @@ async function get_product_deatils() {
       exec(
         '/opt/google/chrome/chrome --profile-directory="Default" --guest --remote-debugging-port=9222'
       );
-      await sleep(1000);
+      await sleep(3000);
 
       const browserURL = "http://127.0.0.1:9222";
 
@@ -276,11 +276,10 @@ async function get_product_deatils() {
         for (const mt of brand["products"].slice(data.length)) {
           let product = await get_details(page, mt, brandname);
 
-          let tree = "";
           if (tree_table[product.name]) {
             console.log("tree exists");
-            tree = tree_table[product.name].tree.join("/");
-          } else tree = product.tree;
+            product.tree = tree_table[product.name].tree.join("/");
+          }
 
           data.push(product);
           const jsonContent = JSON.stringify(data, null, 2);

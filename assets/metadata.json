@@ -1,5 +1,15 @@
 [
   {
+    "brand name": "ADS Shocks",
+    "brand url": "https://www.polyperformance.com/brand/ads-shocks",
+    "products": [
+      {
+        "name": "ADS 2.5 Race Bump Stop",
+        "url": "https://www.polyperformance.com/ads-25bs-parent-ads-2-5-race-bump-stop"
+      }
+    ]
+  },
+  {
     "brand name": "APEX",
     "brand url": "https://www.polyperformance.com/brand/apex",
     "products": [
@@ -74,16 +84,16 @@
         "url": "https://www.polyperformance.com/arb-push-on-wand-tire-air-chuck-arb606"
       },
       {
+        "name": "ARB Jeep JL License Plate Relocation Kit",
+        "url": "https://www.polyperformance.com/arb-jeep-jl-license-plate-relocation-kit"
+      },
+      {
         "name": "ARB Dial Tire Gauge",
         "url": "https://www.polyperformance.com/arb-dial-tire-gauge"
       },
       {
         "name": "ARB Fridge Tie Down & Mounting Kit",
         "url": "https://www.polyperformance.com/arb-ftd-parent-arb-fridge-tie-down-mounting-kit"
-      },
-      {
-        "name": "ARB Jeep JL License Plate Relocation Kit",
-        "url": "https://www.polyperformance.com/arb-jeep-jl-license-plate-relocation-kit"
       },
       {
         "name": "ARB Touring Awning Guy Rope Set",
@@ -94,12 +104,12 @@
         "url": "https://www.polyperformance.com/arb-omesb43-obi"
       },
       {
-        "name": "ARB Tree Trunk Protectors",
-        "url": "https://www.polyperformance.com/arb-tree-trunk-protectors"
-      },
-      {
         "name": "ARB Speedy Seal Tire Repair Kit",
         "url": "https://www.polyperformance.com/arb-speedy-seal-tire-repair-kit"
+      },
+      {
+        "name": "ARB Tree Trunk Protectors",
+        "url": "https://www.polyperformance.com/arb-tree-trunk-protectors"
       },
       {
         "name": "ARB Recovery Damper",
@@ -366,14 +376,6 @@
         "url": "https://www.polyperformance.com/arb-alloy-flat-roof-rack"
       },
       {
-        "name": "ARB Discovery 3 & Discovery 4 29 Spline Front Air Locker",
-        "url": "https://www.polyperformance.com/arb-discovery-3-discovery-4-29-spline-front-air-locker"
-      },
-      {
-        "name": "ARB Land Rover Discovery 3 31 Spline Rear Air Locker",
-        "url": "https://www.polyperformance.com/arb-land-rover-discovery-3-31-spline-rear-air-locker"
-      },
-      {
         "name": "ARB Lockers for Jeep JL Wrangler & JT Gladiator",
         "url": "https://www.polyperformance.com/arb-lockers-for-jeep-jl-wrangler-jt-gladiator"
       },
@@ -402,6 +404,14 @@
         "url": "https://www.polyperformance.com/arb-lockers-for-toyota-land-cruiser"
       },
       {
+        "name": "ARB Discovery 3 & Discovery 4 29 Spline Front Air Locker",
+        "url": "https://www.polyperformance.com/arb-discovery-3-discovery-4-29-spline-front-air-locker"
+      },
+      {
+        "name": "ARB Land Rover Discovery 3 31 Spline Rear Air Locker",
+        "url": "https://www.polyperformance.com/arb-land-rover-discovery-3-31-spline-rear-air-locker"
+      },
+      {
         "name": "ARB Zero Single Zone Fridge Freezers",
         "url": "https://www.polyperformance.com/arb-zero-single-zone-fridge-freezers"
       },
@@ -410,12 +420,12 @@
         "url": "https://www.polyperformance.com/arb-airlocker-ford-9inch-35spl-2inch-brng"
       },
       {
-        "name": "ARB AirLocker for AAM 925 & 950",
-        "url": "https://www.polyperformance.com/arb-rd197-obi"
-      },
-      {
         "name": "ARB Lockers for DANA 60/70/80",
         "url": "https://www.polyperformance.com/arb-lockers-for-dana-60-70-80"
+      },
+      {
+        "name": "ARB AirLocker for AAM 925 & 950",
+        "url": "https://www.polyperformance.com/arb-rd197-obi"
       },
       {
         "name": "ARB Wrangler JL Classic Deluxe Bumper",
@@ -806,12 +816,12 @@
         "url": "https://www.polyperformance.com/advance-adapters-gm-v8-to-toyota-truck-r150-r151f-v6-manual-tranny-adapter-bell-housing-kit-712561"
       },
       {
-        "name": "Advance Adapters Toyota Truck G52, G54, G85 & W56, 4 Cyl Transmission to GM 4.3 V6 & 350 Adapter Bell Housing Kit",
-        "url": "https://www.polyperformance.com/aai-712560x-parent-item-advance-adapters-toyota-truck-g52-g54-g85-w56-4-cyl-transmission-to-gm-4-3-v6-350-adapter-bell-housing-kit"
-      },
-      {
         "name": "Advance Adapters Toyota Truck R150 / R151F, V6 Manual Transmission to GM 4.3 V6 / 350 Adapter Bell Housing Kit",
         "url": "https://www.polyperformance.com/aai-712561v-advance-adapters-toyota-truck-r150-r151f-v6-manual-transmission-to-gm-43-v6-350-adapter-bell-housing-kit"
+      },
+      {
+        "name": "Advance Adapters Toyota Truck G52, G54, G85 & W56, 4 Cyl Transmission to GM 4.3 V6 & 350 Adapter Bell Housing Kit",
+        "url": "https://www.polyperformance.com/aai-712560x-parent-item-advance-adapters-toyota-truck-g52-g54-g85-w56-4-cyl-transmission-to-gm-4-3-v6-350-adapter-bell-housing-kit"
       },
       {
         "name": "Advanced Adapters Chevy V8 & V6 To Jeep Wrangler AX15 Bellhousing Adapter Kit",
@@ -1124,12 +1134,12 @@
     "brand url": "https://www.polyperformance.com/brand/artec-industries",
     "products": [
       {
-        "name": "Artec Industries Jeep JL Nighthawk Bumper",
-        "url": "https://www.polyperformance.com/artec-industries-jeep-jl-nighthawk-bumper"
-      },
-      {
         "name": "Artec Industries JK Inner C Gussets",
         "url": "https://www.polyperformance.com/art-jk4405-obi"
+      },
+      {
+        "name": "Artec Industries Jeep JL Nighthawk Bumper",
+        "url": "https://www.polyperformance.com/artec-industries-jeep-jl-nighthawk-bumper"
       },
       {
         "name": "Artec Industries 14 Bolt Rear Truss",
@@ -1462,12 +1472,12 @@
         "url": "https://www.polyperformance.com/baja-designs-2015-2020-ford-f150-s2-reverse-kit"
       },
       {
-        "name": "Baja Designs Jeep JL Dual S2 Sport Reverse LED Kit",
-        "url": "https://www.polyperformance.com/baja-designs-jeep-jl-dual-s2-sport-reverse-led-kit"
-      },
-      {
         "name": "Baja Designs S2 Reverse Kit for 2019+ Ford Ranger",
         "url": "https://www.polyperformance.com/baja-designs-s2-reverse-kit-for-2019-ford-ranger"
+      },
+      {
+        "name": "Baja Designs Jeep JL Dual S2 Sport Reverse LED Kit",
+        "url": "https://www.polyperformance.com/baja-designs-jeep-jl-dual-s2-sport-reverse-led-kit"
       },
       {
         "name": "Baja Designs 21-Up Ford Bronco Sport Fog Pocket Kit",
@@ -1526,6 +1536,10 @@
         "url": "https://www.polyperformance.com/bjd-s2-pro-pair-parent-item"
       },
       {
+        "name": "Baja Designs 2019 Ford Ranger LED Fog Pocket Light Kit",
+        "url": "https://www.polyperformance.com/baja-designs-2019-ford-ranger-led-fog-pocket-light-kit"
+      },
+      {
         "name": "Baja Designs Jeep, Squadron-R (Pro & Sport), LED JK Rubicon X/10th Anne/Hard Rock Light Kit",
         "url": "https://www.polyperformance.com/baja-designs-jeep-squadron-r-pro-sport-led-jk-rubicon-x-10th-anne-hard-rock-light-kit"
       },
@@ -1540,10 +1554,6 @@
       {
         "name": "Baja Designs 19+ Dodge Ram 2500/3500 Big Horn Fog Pocket Kit",
         "url": "https://www.polyperformance.com/baja-designs-19-dodge-ram-2500-3500-big-horn-fog-pocket-kit"
-      },
-      {
-        "name": "Baja Designs 2019 Ford Ranger LED Fog Pocket Light Kit",
-        "url": "https://www.polyperformance.com/baja-designs-2019-ford-ranger-led-fog-pocket-light-kit"
       },
       {
         "name": "Baja Designs 21+ Ford F150 A Pillar Kit",
@@ -1622,12 +1632,12 @@
         "url": "https://www.polyperformance.com/baja-designs-lp4-pro-led-lights"
       },
       {
-        "name": "Baja Designs OnX6 LED Light Bar",
-        "url": "https://www.polyperformance.com/bjd-onx6-parent-item"
-      },
-      {
         "name": "Baja Designs Jeep JL / JT Sport/Sport-S Squadron-R SAE Fog Pocket Kit",
         "url": "https://www.polyperformance.com/baja-designs-jeep-jl-sport-sport-s-squadron-r-sae-fog-pocket-kit"
+      },
+      {
+        "name": "Baja Designs OnX6 LED Light Bar",
+        "url": "https://www.polyperformance.com/bjd-onx6-parent-item"
       },
       {
         "name": "Baja Designs LP9 Sport LED Lights",
@@ -1952,12 +1962,12 @@
         "url": "https://www.polyperformance.com/cam-310079-camburg-toyota-4-runner-2003-fj-2007-2014-performance-x-joint-upper-arms"
       },
       {
-        "name": "Camburg Toyota Tacoma Pre/4wd 2005+ / 4-Runner 2003+ / FJ 2007-2014 1.25 Performance Uniball Upper Arms",
-        "url": "https://www.polyperformance.com/cam-310036-camburg-toyota-tacoma-pre4wd-2005-4-runner-2003-fj-2007-2014-125-performance-uniball-upper-arms"
-      },
-      {
         "name": "Camburg 05-21 Toyota Tacoma Pre/4wd Performance X-Joint Upper Arm Kit",
         "url": "https://www.polyperformance.com/camburg-toyota-tacoma-pre-4wd-05-21-performance-x-joint-upper-arm-kit"
+      },
+      {
+        "name": "Camburg Toyota Tacoma Pre/4wd 2005+ / 4-Runner 2003+ / FJ 2007-2014 1.25 Performance Uniball Upper Arms",
+        "url": "https://www.polyperformance.com/cam-310036-camburg-toyota-tacoma-pre4wd-2005-4-runner-2003-fj-2007-2014-125-performance-uniball-upper-arms"
       },
       {
         "name": "Camburg 2009-2020 Ford F-150 1.25\" Performance Uniball Upper Arms (w/ covers)",
@@ -1982,10 +1992,6 @@
     "brand url": "https://www.polyperformance.com/brand/carli-suspension",
     "products": [
       {
-        "name": "Cali Suspension 2005+ Ford F250/F350 Dominator 3.0 Coil Buckets",
-        "url": "https://www.polyperformance.com/cali-suspension-2005-ford-f250-f350-dominator-3-0-coil-buckets"
-      },
-      {
         "name": "Carli 2003-2013 Dodge Ram 2500/3500 Drop Pitman Arms",
         "url": "https://www.polyperformance.com/carli-suspension-2003-2013-dodge-ram-2500-3500-drop-pitman-arms"
       },
@@ -1996,6 +2002,10 @@
       {
         "name": "Carli Ford 05-10 F250/350 Sway Bar End Links",
         "url": "https://www.polyperformance.com/carli-ford-05-10-f250350-sway-bar-end-links"
+      },
+      {
+        "name": "Cali Suspension 2005+ Ford F250/F350 Dominator 3.0 Coil Buckets",
+        "url": "https://www.polyperformance.com/cali-suspension-2005-ford-f250-f350-dominator-3-0-coil-buckets"
       },
       {
         "name": "Carli 94-10+ Dodge Ram Performance 2.0 Suspension System",
@@ -2030,12 +2040,12 @@
         "url": "https://www.polyperformance.com/car-cs-fpskit-3x2-carli-suspension-2005-2022-f250350-4-4-2-pinion-shim-kit"
       },
       {
-        "name": "Carli 2.0\" / 2.5\" Reservoir Mount for 2005+ Ford F250/350 4X4",
-        "url": "https://www.polyperformance.com/car-frm-parent-carli-2-0-2-5-reservoir-mount-for-2005-ford-f250-350-4x4"
-      },
-      {
         "name": "Carli Air Bag Spacer for 2003-13 RAM 2500 4x4 & 2003-12 3500 4x4",
         "url": "https://www.polyperformance.com/carli-air-bag-spacer-for-2003-13-ram-2500-4x4-2003-12-3500-4x4"
+      },
+      {
+        "name": "Carli 2.0\" / 2.5\" Reservoir Mount for 2005+ Ford F250/350 4X4",
+        "url": "https://www.polyperformance.com/car-frm-parent-carli-2-0-2-5-reservoir-mount-for-2005-ford-f250-350-4x4"
       },
       {
         "name": "Carli 2014 2500/3500 Rear Track Bar Drop Bracket",
@@ -2082,16 +2092,16 @@
         "url": "https://www.polyperformance.com/car-cs-fshackle-11-carli-2005-2023-ford-f350350-4x4-fabricated-leaf-spring-shackle"
       },
       {
-        "name": "Carli Suspension Leaf Spring Shackles for 2014+ Ram 3500",
-        "url": "https://www.polyperformance.com/car-cs-dshackle-13-carli-suspension-leaf-spring-shackles-for-2013-ram-3500"
-      },
-      {
         "name": "Carli Extended Sway Bar End Links for RAM 1994-1998 2500/3500 4x4",
         "url": "https://www.polyperformance.com/car-cs-del-94-carli-extended-sway-bar-end-links-for-ram-1994-1998-25003500-4x4"
       },
       {
         "name": "Carli Extended Sway Bar End Links for RAM 1998.5-2009 2500/3500 4x4",
         "url": "https://www.polyperformance.com/car-cs-del-985-carli-extended-sway-bar-end-links-for-ram-19985-2009-25003500-4x4"
+      },
+      {
+        "name": "Carli Suspension Leaf Spring Shackles for 2014+ Ram 3500",
+        "url": "https://www.polyperformance.com/car-cs-dshackle-13-carli-suspension-leaf-spring-shackles-for-2013-ram-3500"
       },
       {
         "name": "Carli Track Bar Drop, 1999-2004",
@@ -2202,16 +2212,16 @@
         "url": "https://www.polyperformance.com/carli-2017-progressive-add-a-packs-leveling-springs"
       },
       {
-        "name": "Carli High Clearance Control Arms for 2003-2009 Dodge Ram 2500/3500",
-        "url": "https://www.polyperformance.com/carli-high-clearance-control-arms-for-2003-2009-dodge-ram-2500-3500"
-      },
-      {
         "name": "Carli 3\" Leveling System for 03-09 RAM 2500/3500 4x4, Diesel",
         "url": "https://www.polyperformance.com/carli-3-leveling-system-for-03-09-ram-2500-3500-4x4-diesel"
       },
       {
         "name": "Carli 3\" Leveling System for 10-13 2500 4x4 & 10-12 3500 4x4, Diesel",
         "url": "https://www.polyperformance.com/carli-3-leveling-system-for-10-13-2500-4x4-10-12-3500-4x4-diesel"
+      },
+      {
+        "name": "Carli High Clearance Control Arms for 2003-2009 Dodge Ram 2500/3500",
+        "url": "https://www.polyperformance.com/carli-high-clearance-control-arms-for-2003-2009-dodge-ram-2500-3500"
       },
       {
         "name": "Carli 3\" Leveling Starter System for 2003-09 2500/3500 4x4, Hemi",
@@ -2382,16 +2392,16 @@
         "url": "https://www.polyperformance.com/carli-4-5-commuter-system-for-2011-16-f250-f350-4x4"
       },
       {
-        "name": "Carli 4 Door Rock Sliders for 2017-2023 Ford Bronco",
-        "url": "https://www.polyperformance.com/car-cs-brrs-21-carli-4-door-rock-sliders-for-2017-2023-ford-bronco"
-      },
-      {
         "name": "Carli 3\" Leveling Backcountry System for 03-09 2500/3500 4x4, Diesel",
         "url": "https://www.polyperformance.com/carli-3-leveling-backcountry-system-for-03-09-2500-3500-4x4-diesel"
       },
       {
         "name": "Carli 3\" Leveling Backcountry System for 10-13 2500 4x4, Diesel & 10-12 3500 4x4, Diesel",
         "url": "https://www.polyperformance.com/carli-3-leveling-backcountry-system-for-10-13-2500-4x4-diesel-10-12-3500-4x4-diesel"
+      },
+      {
+        "name": "Carli 4 Door Rock Sliders for 2017-2023 Ford Bronco",
+        "url": "https://www.polyperformance.com/car-cs-brrs-21-carli-4-door-rock-sliders-for-2017-2023-ford-bronco"
       },
       {
         "name": "Carli 2017-2023 Ford F250/350 4X4 Ford Trophy Hitch",
@@ -3026,6 +3036,18 @@
         "url": "https://www.polyperformance.com/cognito-shock-extender-kit-for-chevrolet-gmc"
       },
       {
+        "name": "Cognito HD Series Upper Ball Joint for 2011-2021 Silverado/Sierra 1500HD-3500HD 2014-2018 Silverado/Sierra 1500 Trucks",
+        "url": "https://www.polyperformance.com/cms-199-90804-cognito-hd-series-upper-ball-joint-for-11-21-silveradosierra-1500hd-3500hd-14-18-silveradosierra-1500-trucks"
+      },
+      {
+        "name": "Cognito HD Series Upper Press In Ball Joint for 2019-2022 Silverado/Sierra 1500",
+        "url": "https://www.polyperformance.com/cms-199-90732-cognito-hd-series-upper-press-in-ball-joint-for-19-22-silveradosierra-1500"
+      },
+      {
+        "name": "Cognito HD Series Upper Press In Ball Joint for 2011-2022 Silverado/Sierra 2500/3500",
+        "url": "https://www.polyperformance.com/cms-199-90788-cognito-hd-series-upper-press-in-ball-joint-for-11-22-silveradosierra-25003500"
+      },
+      {
         "name": "Cognito Torsion Bar Adjuster Key Kit for Chevrolet & GMC",
         "url": "https://www.polyperformance.com/cognito-torsion-bar-adjuster-key-kit-for-chevrolet-gmc"
       },
@@ -3046,6 +3068,10 @@
         "url": "https://www.polyperformance.com/cognito-alloy-series-tie-rod-kit-for-chevrolet-gmc"
       },
       {
+        "name": "Cognito Heavy-Duty Fixed-Length Track Bar for 2014-2021 Dodge RAM 2500 / 2013-2021 RAM 3500",
+        "url": "https://www.polyperformance.com/cms-115-90920-cognito-heavy-duty-fixed-length-track-bar-for-14-21-dodge-ram-2500-13-21-ram-3500"
+      },
+      {
         "name": "Cognito Upper Control Arm Kit for Chevrolet & GMC",
         "url": "https://www.polyperformance.com/cognito-upper-control-arm-kit-for-chevrolet-gmc"
       },
@@ -3056,6 +3082,14 @@
       {
         "name": "Cognito Leveling Kit for 2011-2019 GM 2WD/4WD 2500HD/3500HD trucks",
         "url": "https://www.polyperformance.com/cms-110-90768-cognito-leveling-kit-for-2011-2019-gm-2wd4wd-2500hd3500hd-trucks"
+      },
+      {
+        "name": "Cognito Uniball SM Series Upper Control Arm Kit For 2015-2020 Ford F-150 4WD",
+        "url": "https://www.polyperformance.com/cms-120-91056-cognito-uniball-sm-series-upper-control-arm-kit-for-15-20-ford-f-150-4wd"
+      },
+      {
+        "name": "Cognito SM Series Uniball Upper Control Arm Kit for 2021-2022 Ford F-150 4WD",
+        "url": "https://www.polyperformance.com/cms-120-91057-cognito-sm-series-uniball-upper-control-arm-kit-for-21-22-ford-f-150-4wd"
       }
     ]
   },
