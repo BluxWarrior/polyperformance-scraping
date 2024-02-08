@@ -55,10 +55,6 @@ async function get_progress() {
 
   // get metadata process
   if (fs.existsSync(`./assets/metadata.json`)) {
-    console.log(
-      JSON.parse(fs.readFileSync("./assets/metadata.json", "utf8")).length,
-      numberofbrands
-    );
     progress["metadata"] =
       (JSON.parse(fs.readFileSync("./assets/metadata.json", "utf8")).length /
         numberofbrands) *
