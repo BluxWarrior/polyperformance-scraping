@@ -113,6 +113,13 @@ function refactor(data) {
         oldprice = finalprice;
         count++;
       }
+      let inventorytracker = "";
+      let inventorypolicy = "";
+      if (option["stock"] === "instock") inventorypolicy = "continue";
+      else {
+        inventorytracker = "shopify";
+        inventorypolicy = "deny";
+      }
       if (num_oldprice === 0 || num_oldprice < num_finalprice) {
         oldprice = finalprice;
       }
@@ -131,6 +138,8 @@ function refactor(data) {
           "Option1 Name": "Part #",
           "Option1 Value": optionname,
           "Variant SKU": skunumber,
+          "Variant Inventory Tracker": inventorytracker,
+          "Variant Inventory Policy": inventorypolicy,
           "Variant Price": finalprice,
           "Variant Compare At Price": oldprice,
           "Variant Requires Shipping": "TRUE",
